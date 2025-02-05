@@ -1,0 +1,15 @@
+import re 
+s = 'p1 in mock p1 in mock p1 in mock p1 in mock'
+print(re.match('p1',s))
+print(re.match('i',s))
+print(re.search('o',s))
+print(re.search('z',s))
+print(re.findall('p',s))
+print(re.findall('k',s))
+print(re.split('',s))
+print(re.split('c',s))
+print(re.sub('i', 'w',s))
+print(re.sub('l','d',s))
+print(re.subn('k',s))
+print(re.subn('p',s))
+print(re.finditer('i',s))
