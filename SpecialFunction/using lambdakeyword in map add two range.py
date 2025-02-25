@@ -1,1 +1,0 @@
-print(list(map(lambda num1,num2:num1+num2,range(1,11),range(11,21))))

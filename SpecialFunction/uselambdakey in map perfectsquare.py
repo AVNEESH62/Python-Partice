@@ -1,1 +1,0 @@
-print(list(map(lambda num: num**2,[5,6,10,6])))

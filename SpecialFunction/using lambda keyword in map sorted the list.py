@@ -1,1 +1,0 @@
-print(list(map(sorted,['ade','defA','mon','56910'])))
